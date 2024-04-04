@@ -1,0 +1,70 @@
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.aux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5%;
+
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dan {
+    border: medium solid salmon;
+}
+
+#chuy {
+    border: medium solid lightblue;
+}
+
+#dName {
+    color: salmon;
+}
+
+#cName {
+    color: rgb(0, 191, 255);
+}
+
+#dScore {
+    background-color: rgba(250, 128, 114, 0.658);
+    border: medium solid salmon;
+    border-radius: 12px;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cScore {
+    background-color: rgba(173, 216, 230, 0.658);
+    border: medium solid lightblue;
+    border-radius: 12px;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.point {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    margin: 2% 0 2% 0;
+    padding: 10%;
+    border: thin solid rgba(128, 128, 128, 0.356);
+    border-radius: 12px;
+}
